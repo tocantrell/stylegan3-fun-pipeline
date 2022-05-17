@@ -1,3 +1,12 @@
+# Example code for my article "The Future of Interactive Media - Pipelining StyleGAN3 for Production"
+
+Most examples used in the article can be found in the jupyter notebook, article\_examples.ipynb. All code relating to the final pipeline examples can be found in the files character\_generate.py and character\_projector.py.
+
+Real outputs from the example pipeline runs can be found in the face and sprite folders.
+
+The rest of the code in this repository is unchanged from the original source, stylegan3-fun. 
+
+
 # StyleGAN3-Fun<br><sub>Let's have fun with StyleGAN2/ADA/3!</sub>
 
 SOTA GANs are hard to train and to explore, and StyleGAN2/ADA/3 are no different. The point of this repository is to allow

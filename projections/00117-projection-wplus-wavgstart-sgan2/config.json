@@ -1,0 +1,41 @@
+{
+    "description": "",
+    "network_pkl": "models/anime_faces_latest.pkl",
+    "outdir": "projections/00117-projection-wplus-wavgstart-sgan2",
+    "run_config": {
+        "elapsed_time": "1m 54s",
+        "last_commandline_status": {
+            "dist": 0.005837554112076759,
+            "loss": 0.005837554112076759
+        },
+        "latent_space_options": {
+            "project_in_wplus": true,
+            "projection_seed": null,
+            "start_wavg": true,
+            "truncation_psi": 1.0
+        },
+        "loss_options": {
+            "loss_paper": "sgan2",
+            "vgg16_normed": true,
+            "vgg16_sqrt_normed": false
+        },
+        "optimization_options": {
+            "constant_learning_rate": false,
+            "initial_learning_rate": 0.1,
+            "num_steps": 3000,
+            "regularize_noise_weight": 100000.0
+        },
+        "projection_options": {
+            "initial_noise_factor": 0.05,
+            "lr_rampdown_length": 0.25,
+            "lr_rampup_length": 0.05,
+            "noise_ramp_length": 0.75,
+            "w_avg_samples": 10000
+        }
+    },
+    "save_every_step": false,
+    "save_video": false,
+    "seed": 303,
+    "target_image": "test_data",
+    "video_fps": 30
+}
