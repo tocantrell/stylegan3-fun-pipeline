@@ -269,10 +269,11 @@ if __name__ == "__main__":
 
     network_pkl_sprite = 'models/together_sprite_sg2.pkl'
     network_pkl_face ='models/anime_faces_latest.pkl'
-    w_base_sprite = 'models/sprite_woman_w.npy'
     if out_name == 'hero':
+        w_base_sprite = 'models/sprite_girl_w.npy'
         w_base_face = 'models/wide_eye_w.npy' #face_magical_w.npy
     elif out_name == 'villain':
+        w_base_sprite = 'models/sprite_woman_w.npy'
         w_base_face = 'models/narrow_eye_w.npy'
     print("Generating sprites..")
     img_loc = generate_sprite(network_pkl_sprite, out_name, w_base_sprite)
